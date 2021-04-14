@@ -16,7 +16,6 @@ function setup() {
 }
 
 function loaded() {
-  song.play();
   song.loop();
 }
 
