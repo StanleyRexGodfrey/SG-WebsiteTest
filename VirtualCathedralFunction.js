@@ -26,7 +26,7 @@ function draw() {
   fill(255);
   text('Click to play', 10, 20);
   fill(255);
-  text('dry/wet: ' + round(dryWet * 100) + '%', 10, height - 20);
+  text('Dry/Wet: ' + round(dryWet * 100) + '%', 10, height - 20);
 }
 
 function playSound() {
