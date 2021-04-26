@@ -1,10 +1,12 @@
 let soundFile, reverb;
+let img;
 function preload() {
   soundFile = loadSound('DoReMiFaSo.wav');
+  img = loadImage('Cathedral.jpg');
 }
 
 function setup() {
-  let cnv = createCanvas(100, 100);
+  let cnv = createCanvas(500, 500);
   cnv.mousePressed(playSound);
 
   reverb = new p5.Reverb();
@@ -20,7 +22,7 @@ function draw() {
   // 1 = all reverb, 0 = no reverb
   reverb.drywet(dryWet);
 
-  background(220);
+  background(img);
   text('tap to play', 10, 20);
   text('dry/wet: ' + round(dryWet * 100) + '%', 10, height - 20);
 }
