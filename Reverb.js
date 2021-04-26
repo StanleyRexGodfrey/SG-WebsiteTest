@@ -6,7 +6,7 @@ function preload() {
 }
 
 function setup() {
-  let cnv = createCanvas(500, 500);
+  let cnv = createCanvas(640, 427);
   cnv.mousePressed(playSound);
 
   reverb = new p5.Reverb();
