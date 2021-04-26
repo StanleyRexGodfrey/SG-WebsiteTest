@@ -1,6 +1,6 @@
 let soundFile, reverb;
 function preload() {
-  soundFile = loadSound('snare.mp3');
+  soundFile = loadSound('DoReMiFaSo.wav');
 }
 
 function setup() {
