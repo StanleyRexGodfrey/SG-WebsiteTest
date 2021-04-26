@@ -23,8 +23,8 @@ function draw() {
   reverb.drywet(dryWet);
 
   background(img);
-  text('tap to play', 10, 20);
-  text('dry/wet: ' + round(dryWet * 100) + '%', 10, height - 20);
+  text('Click to play', 255, 20);
+  text('dry/wet: ' + round(dryWet * 100) + '%', 255, height - 20);
 }
 
 function playSound() {
