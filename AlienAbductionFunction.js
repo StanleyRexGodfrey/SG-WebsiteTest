@@ -1,5 +1,8 @@
 let osc, playing, freq, amp;
 
+function preload() {
+  img = loadImage('UFO.jpg');
+}
 function setup() {
   let cnv = createCanvas(100, 100);
   cnv.mousePressed(playOscillator);
@@ -7,7 +10,7 @@ function setup() {
 }
 
 function draw() {
-  background(220)
+  background(img)
   freq = constrain(map(mouseY, 0, height, 700, 100 ), 100, 700);
   amp = constrain(map(mouseY, height, 0, 0.5, 1), 0, 1);
 
