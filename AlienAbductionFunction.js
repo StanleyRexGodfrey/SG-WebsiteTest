@@ -4,7 +4,7 @@ function preload() {
   img = loadImage('UFO.jpg');
 }
 function setup() {
-  let cnv = createCanvas(100, 100);
+  let cnv = createCanvas(427, 532);
   cnv.mousePressed(playOscillator);
   osc = new p5.Oscillator('sine');
 }
