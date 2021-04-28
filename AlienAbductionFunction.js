@@ -14,9 +14,9 @@ function draw() {
   freq = constrain(map(mouseY, 0, height, 700, 100 ), 100, 700);
   amp = constrain(map(mouseY, height, 0, 0.5, 1), 0, 1);
 
-  text('tap to play', 20, 20);
-  text('freq: ' + freq, 20, 40);
-  text('amp: ' + amp, 20, 60);
+  text('Click to play', 20, 20);
+  text('Freq: ' + freq, 20, 40);
+  text('Gain: ' + amp, 20, 60);
 
   if (playing) {
     // smooth the transitions by 0.1 seconds
