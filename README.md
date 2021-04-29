@@ -1,5 +1,4 @@
 # Stanley-Rex-Godfrey-Portfolio
-My Website
 
 This website is going to be used for presenting my audio productions from music compositions to interactive art pieces.
 
