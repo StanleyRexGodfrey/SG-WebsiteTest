@@ -1,7 +1,7 @@
 # Stanley-Rex-Godfrey-Portfolio
 My Website
 
-This website is going to be used for presenting any of my audio productions from music to interactive art pieces.
+This website is going to be used for presenting my audio productions from my music to interactive art pieces.
 
 Currently I have not uploaded any of my work, but I have added in two interactive web audio pieces which are fun to experiment with.
 
