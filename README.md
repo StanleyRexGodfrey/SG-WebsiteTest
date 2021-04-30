@@ -8,4 +8,4 @@ The first piece is called "The Virtual Cathedral" and uses the reverb functions 
 
 The second piece is called "Alien Abduction" which is composed of an oscillator that increases in frequency and amplitude depending on where the user clicks on the image of the UFO. If the user clicks the bottom of the image and drags their mouse up towards the top, there will be an increase in both frequency and amplitude making it sound like an alien abduction in an old film. The frequency is displayed so users can identify exactly what pure sine tones sound like at different values.
 
-Although this site is currently under construction, I hope you enjoy experimenting with the features that are currently uploaded.
+Although this site is currently under construction, I hope you enjoy experimenting with the features that have been uploaded.
